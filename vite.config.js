@@ -12,7 +12,7 @@ export default defineConfig({
       './CharacterListRM': './src/components/CharacterList.jsx'
     },
     remotes: {
-      'n5-remote-commons': 'https://n5-host.vercel.app/assets/remoteEntry.js',
+      'n5-remote-commons': 'https://n5-commons.vercel.app/assets/remoteEntry.js',
     },
     shared: ['react', 'react-dom'],
   })],
